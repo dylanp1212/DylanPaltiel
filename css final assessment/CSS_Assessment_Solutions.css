@@ -14,8 +14,8 @@ body{
 Change the h1 to have a 4px solid black border*/
 
 h1{
+    border: black;
     border-width: 4px;
-    border-color: black;
 }
 
 /* And center the text. */
