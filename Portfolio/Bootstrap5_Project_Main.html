@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project</title>
+    <!-- STEP 1: INSERT THE BOOTSTRAP 5 CSS LINK HERE AND JAVASCRIPT LINK AT
+        AT THE BOTTOM OF THE HTML BODY 
+        https://getbootstrap.com/docs/5.2/getting-started/introduction/
+      -->
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css' rel='stylesheet'>
+  
+  </head>
+  <body>
+
+    <!--STEP 2:  ADD A DARK NAVBAR HERE WITH A LINK TO THE SEPARATE SIGN UP PAGE -->
+
+    <nav class='navbar navbar-expand-lg bg-dark'>
+      <a class='navbar-brand text-light' href='#'>Home</a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class='nav-item'>
+          <a class='nav-link text-light' href='Bootstrap5_Project_Signup.html'>Sign up</a>
+        </li>
+      </ul>  
+    </nav>
+
+    <!-- 
+      STEP 3: 
+      1) CREATE A DIV INSIDE OF A BOOTSTRAP "Container" DIV. 
+      2) CREATE SOME HEADER TEXT IN THE INTERNAL DIV USING A BOOTSTRAP 'Display Heading' CLASS
+        HINT: search Bootstrap for "Display Headings"
+      3) ADD SOME LOREM IPSUM TEXT BELOW THE HEADER. 
+      4) COLOR THE BACKGROUND OF WHOLE DIV 
+        HINT: Search Bootstrap for "Background Color"
+      5) ADD A TOP MARGIN OF 2 TO THE INNER DIV AND PADDING OF 3 TO THE TOP, BOTTOM, RIGHT AND LEFT OF THE INNER DIV
+        HINT: Search Bootstrap for "margins and padding"
+    -->
+    <div>
+      <div class='bg-info m-2 p-3'>
+        <h1 class='dislpay-3'>
+          Some Header Text
+        </h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. At sapiente in totam quia, eligendi libero perspiciatis similique asperiores optio accusantium, unde, earum mollitia laudantium error consectetur illo facilis quo odio.
+        </p>
+        
+      </div>
+      <div id='step4carousel' class='carousel slide' data-bs-ride='carousel'>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class='carousel-inner'>
+          <div class='carousel-item active'>
+            <img src='https://images.unsplash.com/photo-1523626752472-b55a628f1acc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2e90eae0238ba64cc447f3be7f522c19&auto=format&fit=crop&w=1575&q=80' class='d-block w-100' alt='image 1'>
+          </div>
+          <div class='carousel-item active'>
+            <img src='https://images.unsplash.com/photo-1517519014922-8fc06b814a0e?ixlib=rb-0.3.5&s=612f05d638cc31fd235cbfb2d21bcfc0&auto=format&fit=crop&w=1352&q=80' class='d-block w-100' alt='image 2'>
+          </div>
+          <div class='carousel-item active'>
+            <img src='https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-0.3.5&s=b40cfb86768850f7623bfcfef2a5ba0f&auto=format&fit=crop&w=1575&q=80' class='d-block w-100' alt='image 3'>
+          </div>
+          <div class='carousel-item active'>
+            <img src='https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=71d59cd22de21da8d2939bc203617983&auto=format&fit=crop&w=1560&q=80' class='d-block w-100' alt='image 4'>
+          </div>          
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+      STEP 4: FIGURE OUT HOW TO PUT THESE IMAGE LINKS IN A CAROUSEL AT THE BOTTOM OF THE PAGE! 
+      HINT: put the carosel inside the countainer div that you created above.
+    -->
+
+   <!-- src="https://images.unsplash.com/photo-1523626752472-b55a628f1acc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2e90eae0238ba64cc447f3be7f522c19&auto=format&fit=crop&w=1575&q=80"
+   src="https://images.unsplash.com/photo-1517519014922-8fc06b814a0e?ixlib=rb-0.3.5&s=612f05d638cc31fd235cbfb2d21bcfc0&auto=format&fit=crop&w=1352&q=80"
+   src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-0.3.5&s=b40cfb86768850f7623bfcfef2a5ba0f&auto=format&fit=crop&w=1575&q=80"
+   src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=71d59cd22de21da8d2939bc203617983&auto=format&fit=crop&w=1560&q=80"
+   src="https://images.unsplash.com/photo-1517423568366-8b83523034fd?ixlib=rb-0.3.5&s=d68543202e54ab0235f6d1defcc4dfe7&auto=format&fit=crop&w=1575&q=80"
+   src="https://images.unsplash.com/photo-1517423738875-5ce310acd3da?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1523dbf0339fcfcadbe96fe4eb2f8b2&auto=format&fit=crop&w=1410&q=80"
+   -->
+
+  <!--STEP 1: INSERT BOOTSTRAP 5 JAVASCRIPT LINK HERE -->
+  <script source='https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js'></script> 
+  </body>
+</html>
